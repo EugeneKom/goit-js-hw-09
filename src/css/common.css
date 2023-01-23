@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 20px auto;
+  font-family: Segoe UI;
+    
+}
+
+.value {
+  font-size: 30px;
+  font-weight: 900;
+  
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 900;
+  
+
+}
+
+#datetime-picker {
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 9px;
+
+  padding: 10px;  
+  margin-left: 30%;
+
+}
+
+button[data-start] {
+  width: 120px;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 9px;
+  font-size: 18px; 
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Segoe UI;
+
+  border: 2px solid black;
+  background-color: greenyellow;
+
+  
+}
+
+button[data-start]:disabled {
+  background-color: transparent;
+}
+
